@@ -1,0 +1,131 @@
+<!--- Minimum 5 "id" attribute kullaniniz. (-10)
+- Minimum 5 "class" attriubte'u kullaniniz. (-10)
+- Temiz ve düzenli kod yazimi (hizalama ver bosluklar). (-15)
+- Kod icinde yorumlar eklenmesi). (-5)
+- Footer bölümündeki iconlar icin HTML Entity kullanimlari (&copy; gibi). (-5)
+- Degisik meta taglarin kullanilmasi. (-5)
+- JS kullanilmayacak. Sadece inline css kullanilabilir (style attribute'ü) (-5)
+- Layout icin semantik tag'larin kullanilmasi (main, section, article, vs...) (-10)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiCoders Web Programming Course</title>
+</head>
+<body>
+    <main><!--genel sayfa bosluklari buradan ayarlanabilir img ye dikkat edilerek-->
+        <header>
+            <img src="./logo.png" align="left" width="8%" alt="hicoders logo">
+            <nav align="right">
+                <a href="./index.html">Home</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+            <br>
+            <hr>
+            <h1 align="center">Welcome to HiCoders Web Programming Course</h1>
+            <img src="https://png.pngtree.com/background/20210709/original/pngtree-cartoon-education-training-cram-school-picture-image_917042.jpg" width="100%" alt="e-learnig brochure">
+        </header>
+
+        <section id="skills" class="list">
+            <table style="margin-left: 250px;"><!--daha esnek olcu birimleri kullanilabilr-->
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>What contains Web Basic?</legend>
+                            <ul>
+                                <li><abbr title="HyperText Markup Language">HTML5</abbr> </li>
+                                <li> <abbr title="Cascading Style Sheets">CSS3</abbr></li>
+                                <li>Visual Studio Code <u>(IDE)</u> </li>
+                                <li>Semantic Web</li>
+                                <li>Responsive Web Design</li>
+                                <li>Bootstrap CSS Framework</li>
+                                <li>Command Line Interface <u>(CLI)</u></li>
+                                <li>Git als VCS</li>
+                                <li>GitHub</li>
+                                <li>IR basis &concepsts (<em>computers, networks, operating systems</em>)</li>
+                            </ul>
+                        </fieldset>
+                    </td>
+                    <td id="article" rowspan="2" style="padding-right: 10%;">
+                        <h2 align="center">Our motto is: share knowledge and promote people!</h2>
+
+                        <h3>Web Basic</h3>
+
+                        <p>
+                            It is the first module of our course. This course first covers the basics of web technologies.
+                            The tools required forprogramming websites are presented. The technologies listed below will
+                            be completed in <u>approximately 8 weeks</u> with an intense homework pace.
+                            Participants who have completed this course will have gained knowledge and experience in 
+                            the use of the following tools and technologies and
+                             with <mark>this knowledge and experience will be able to create static websites very easily.</mark> 
+                        </p>
+
+                        <h3>Web Programming</h3>
+
+                        <p> unctional In this second course of our module,<strong>basic programming structures 
+                            in Javascript</strong>  are taught. The tasks dealt with in this module are well above 
+                            the basic level, and the submission of these tasks is the most important
+                            prerequisite for completing the course. While the participants prepare these
+                            assignments, they need to do research outside of class and, in particular,
+                            have frequent dialogues with their mentors and request their support. 
+                            Although this module is a very challenging module, it is the main module
+                            that teaches programming beyond the basics.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list" id="goals">
+                        <fieldset>
+                            <details>
+                                <summary>What Contains Web Programming</summary>
+                                <ol>
+                                    <li>Basic Programming( <em>varibles, conditions, loops, functions</em> )</li>
+                                    <li>Ecma Script (<em>objects, arrays, strings, template literals, dates, functional programming</em>)</li>
+                                    <li>Create algorithms</li>
+                                    <li>Creation anduse of data models</li>
+                                    <li>Working with modules <em>(seperting of responsibilities, modularization)</em></li>
+                                    <li>DOM programming <em>DOM-Api, BOM-Api</em></li>
+                                    <li>Use of web interfaces in applications</li>
+                                    <li>Use of web libraries in applications</li>
+                                    <li>How to Use Tools to Find Errors <em>(Debug)</em></li>
+                                    <li>Basis of test-driven development</li>
+                                </ol>
+                            </details>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section style="margin-left: 450px;">
+            <img src="./video.png" alt="video players foto">
+        </section> <hr>
+
+        <footer>
+            <table style="margin-left: 450px;">
+                <tr>
+                    <td class="flist" id="learn_objeckts">
+                        <br>
+                        <h2>Our Course Phases</h2>
+                        <ul>
+                            <li>Web Fundamentals</li>
+                            <li>Web Programming</li>
+                            <li>Fullstack Web Programming</li>
+                            <li>Capstone Projects</li>
+                        </ul>
+                    </td>
+                    <td class="flist" id="contack">
+                        <h2>Contackt</h2> 
+                        <a href="mailto:info@hicoders.ch"> &#x2709; info@hicoders.ch</a> <br>
+                        <a href="tel:+41009001010"> &#x260E; tel:+41009001010</a>
+                        <address> &#9826; Schafhauserstrasse 470, 8052 Zurich</address>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+
+    </main>
+</body>
+</html>

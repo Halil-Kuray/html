@@ -1,0 +1,179 @@
+<!--Merhaba arkadaslar,
+
+Su ana kadar gördügümüz ve sizlerin kendi calismalarinizda ögrendiginiz HTML Tag'lerini kullanarak asagida resmi verilen web sayfasini birebir olarak gerceklestiriniz.
+
+Kriterler:
+- Minimum 5 "id" attribute kullaniniz. (-10)
+- Minimum 5 "class" attriubte'u kullaniniz. (-10)
+- Temiz ve düzenli kod yazimi (hizalama ver bosluklar). (-15)
+
+- Degisik meta taglarin kullanilmasi. (-5)
+- Hiçbir şekilde CSS ve JavaScript kullanılmayacak. Sadece inline css kullanilabilir (style attribute'ü) (-5)
+- Layout icin semantik tag'larin kullanilmasi (main, section, article, vs...) (-10)
+
+Teslim:
+HTML dosyası, isimlendirme: HTML_Week3_ISIM_SOYISIM_summary.html-->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Akisinin Özeti</title>
+    
+</head>
+
+<body> 
+    <section>
+    <div class="header"> <!-- Kod icinde yorumlar eklenmesi ). (-5)
+        - HTML Entity kullanimlari (&isim; gibi). (-5)-->
+      <h1>WP 2021-Hafta 03-Ödev</h1>
+    </div>
+    <div class="content"> Bu haftaki derste daha fazla <mark>HTML Attribütl</mark>lerini tanidik ve biray daha detaylarina baktik ve
+        <mark>HTML Entities</mark>`ler ile tanistik. Ayrica <strong>form</strong>ve kullanicilarin bilgi girebilmesi
+        icin
+        <strong>input</strong> elemanlarini tanidik. Asagida "Hafta 04 Konseptler ve Linkler" bölümünde bu hafta
+        islediklerimizi özet olarak bulabilirsiniz. <br></div>
+    </section>
+    <hr/>
+    <fieldset>
+        <legend>
+            <strong>
+                <mark>HATIRLATMA</mark>
+            </strong>
+        </legend>
+        <details>
+            <summary style="color: red;">OKU BENI</summary>
+            <strong>Teori derslerinde gordugunuz konularin disinda kendiniz de ayrica arastirma yapip tag ve attributeleri ögreniniz</strong>
+            <br>
+            <br>
+            Ölcu olarak, altaki dagilimi referans alabilirsiniz:
+            <ul class="research">
+                <li id="item">25% Teori</li>
+                <li id="item2">20% Pratik</li>
+                <li id="item3">25% Ödev</li>
+                <li id="item4">30% Kendi basiniza arastirma</li>
+            </ul>
+        </details>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <strong>Hafta 04 Konsepler ve Linkler</strong>
+        </legend>
+            <details>
+                <summary>
+                    Göster...
+                </summary>
+                <ul class="big">
+                    <li>
+                        <h3>HTML Tag`lari</h3>
+                        <ul class="under">
+                            <li id="switch">form/input/select/textarea/label/button/fieldset/legend</li>
+                            <li id="switch2">audio,progres,meter,textarea,video,map,select,option</li>
+                            <li>meta
+                                <ul>
+                                    <li>meta tag kullanim özellikleri <a
+                                            href="https://github.com/kwsutter">https://github.com/kwsutter</a></li>
+                                </ul>
+                            </li>
+                            <li>embed,iframe</li>
+                            <li>daha fazlasi: <a href="https://www.html.com/tags/">html.com/tags</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>HTML Attribüteleri</h3>
+                        <ul>
+                            <li>Global
+                                <ul>
+                                    <li>id,class,tittle,style-*,hidden,lang,tabindex,contenteditable</li>
+                                    <li>Event Handlers
+                                        <ul>
+                                            <li>onclick,onfocus,onchange,onmouseout,onmouseover,ondblick</li>
+                                        </ul>
+                                    <li>daha fazlasi: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">Dev
+                                            Mozilla Reference</a></li>
+                        </ul>
+                    </li>
+                    <li>Tag spesipik
+                        <ul>
+                            <li>src,alt,href,target,autofocus,autocomplete,placeholder</li>
+                            <li>pattern,placeholder,min,max,siye,minleght,maxlenght,name,readonly,requred,spellcheck,value,
+                                ...</li>
+                            <li>loop,autoplay,muted,played,buffered</li>
+                            <li>teori slaytlarina ve HTML.com/attributes`a kullanim kontext`leri ve daha fazlasi icin
+                                bakiniz.</li>
+                        </ul>
+                    </li>
+                    <li>Daha faylasi: <a href="https://www.w3schools.com/html/html_attributes.asp">html.com/attributtes</a>
+                    </li>
+                </ul>
+                </li>
+                <li>
+                    <h3>HTML Entity`leri</h3>
+                    <ul>
+                        <li>&#128169;,&#128521;,&#128584;,&#128526;</li>
+                        <li>Karakter referans sayfasi: <a href="https://dev.w3.org/html5/html-author/charref">HTML Entities Interactive Referance</a></li>
+                    </ul>
+                </li>
+                </ul>
+        
+            </details>
+    </fieldset>
+    <table class="swz" border="2" style="width:100%">
+        <tr>
+            <th colspan="7">Isvicre`de bagzi kantonlarla ilgili bilgiler.</th>
+        </tr>
+        <tr>
+            <th bgcolor="lightblue" align="center">Isim</th>
+            <th bgcolor="lightblue" align="center">Kisaltma</th>
+            <th bgcolor="lightblue" align="center">En büyük sehri</th>
+            <th bgcolor="lightblue" align="center">Nüfusu</th>
+            <th bgcolor="lightblue" align="center">Konusulan dil</th>
+            <th bgcolor="lightblue" align="center">Bayragi</th>
+            <th bgcolor="lightblue" align="center">Sayfasi</th>
+        </tr>
+        <tr>
+            <td>Zürich</td>
+            <td>ZH</td>
+            <td>Zürich</td>
+            <td>1.504.346</td>
+            <td>AlmancA</td>
+            <td> <img
+                    src="https://image.shutterstock.com/image-vector/vector-illustration-flag-zurich-city-260nw-1079537363.jpg"
+                    alt="" width="25" height="30"></td>
+            <td> <a href="https://www.zh.ch/de.html">zh.ch</a></td>
+        </tr>
+        <tr>
+            <td>Cenevre</td>
+            <td>GE</td>
+            <td>Cenevre</td>
+            <td>495.249</td>
+            <td>Fransizca</td>
+            <td> <img src="https://i.pinimg.com/originals/84/d8/ca/84d8cab7e589f86a6441b5fc9491d2e4.png" alt=""
+                    width="25" height="30"></td>
+            <td> <a href="https://www.ge.ch/">ge.ch</a></td>
+        </tr>
+        <tr>
+            <td>Bern</td>
+            <td>BE</td>
+            <td>Bern</td>
+            <td>1,031,126</td>
+            <td>Almanca, Fransizca</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_Canton_of_Bern-2.png" alt=""
+                    width="25" height="30"></td>
+            <td> <a href="https://www.be.ch/">be.ch</a></td>
+        </tr>
+        <tr>
+            <th bgcolor="grey" align="left" colspan="7">...</th>
+        </tr>
+        <tr>
+            <th bgcolor="yellow" colspan="3">Toplam Nüfus</th>
+            <th colspan="4">8.039.060</th>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

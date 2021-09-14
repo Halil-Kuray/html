@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiCoders Web Programming Course</title>
+</head>
+<body>
+    <main style="margin:10px 30%;">
+         <header><!--boyutlarin duzenlenmeye ihtiyaci var-->
+            <img src="./logo.png" align="left" width="8%" alt="hicoders logo">
+            <nav align="right">
+                <a href="./index.html">Home</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+            <hr>
+        </header>
+
+        <section><!--baslik ve aciklamalr kismi-->
+            <h1>The Hicoders welcomes you!</h1>
+            <p>
+                We are experienced software engineers. we voluntarily help people who are
+                interested in IT and run various courses for this purpose. if you are
+                 interestedin our course, do not hesitate to contact us!
+            </p>
+        </section>
+
+        <form action="#"></form>
+                <section><!-- formun gonderilecegi adres for ve name ksimlari gozden gecirilmeli-->
+           
+                    <fieldset class="personal_info">
+                        <legend>Personal Information</legend>
+
+                        <label>Firstname</label><br>
+                        <input type="text" placeholder="please enter your firstname!"> <br> <br>
+
+                        <label>Lastname</label><br>
+                        <input type="text" placeholder="please enter your lastname!"> <br> <br>
+
+                        <label>Email</label><br>
+                        <input type="email" placeholder="please enter your email!"> <br> <br>
+
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="c">Female <br>
+                        
+                        <input type="radio" name="c">Male <br> <br>
+
+                        <label>Phone</label><br>
+                        <input type="tel" placeholder="please enter your phone no!"> <br> <br>
+
+                        <select class="education" name="graduation" id="graduation">
+                            <option value="phd">PhD</option>
+                            <option value="master">Master</option>
+                            <option value="bachelor">Bachelor</option>
+                            <option value="association">Association</option>
+                        </select> <br> <br>
+
+                        <label for="feedback">Why do you want to learn programming?</label> <br>
+                        <textarea name="feedback" id="feedback" cols="45" rows="10"></textarea> <br> <br>
+
+                        <label for="answer">What do you expect from this course?</label> <br>
+                        <textarea name="answer" id="answer" cols="45" rows="10"></textarea> <br>
+                    </fieldset>
+                </section>
+
+                <section>
+                    <fieldset class="personal_info">
+                        <legend>Family Members</legend>
+                        
+                        <label for="family">Are you Married</label> <br>
+                        <input type="radio" name="c">Female <br>
+                        <input type="radio" name="c">Male <br> <br>
+
+                        <label for="child">If you married, how many child do you have?</label> <br> <br>
+                        <input type="number" placeholder="Enter number of your Children!">
+
+                    </fieldset>
+                </section>
+
+                <section> <!-- ileride baska secenekler eklenebilecek bir alan-->
+                    <fieldset class="exp_list" >
+                        <legend>Confirmation and Application</legend>
+                        
+                        <input type="checkbox">
+                        <label for="html">HTML</label> <br>
+
+                        <input type="checkbox">
+                        <label for="css">CSS</label> <br>
+
+                        <input type="checkbox">
+                        <label for="bootstrap">Bootstrap</label> <br>
+
+                        <input type="checkbox">
+                        <label for="javaScript">JavaScript</label> <br>
+
+                        <input type="checkbox">
+                        <label for="nodeJs">NodeJS</label> <br>
+
+                        <input type="checkbox">
+                        <label for="reactJs">ReactJS</label> <br>
+
+                        <input type="checkbox" required>
+                        <label for="confitmation">please confirm by ticking the box after reading the
+                            <a href="#"> privacy term and conditions</a>
+                        </label> <br>
+
+                    </fieldset>
+                </section>
+                 <input type="submit">
+         </form>
+         <footer><!-- css ile hos bir gorunume kavusturulabilir-->
+                <table>
+                    <tr>
+                        <td>
+                            <br>
+                            <h2>Our Course Phases</h2>
+                            <ul>
+                                <li>Web Fundamentals</li>
+                                <li>Web Programming</li>
+                                <li>Fullstack Web Programming</li>
+                                <li>Capstone Projects</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <h2>Contackt</h2> <!--Entity kullanim alani gelistirilebilir-->
+                            <a href="mailto:info@hicoders.ch"> &#x2709; info@hicoders.ch</a> <br>
+                            <a href="tel:+41009001010"> &#x260E; tel:+41009001010</a>
+                            <address> &#9826; Schafhauserstrasse 470, 8052 Zurich</address>
+                        </td>
+                    </tr>
+                </table>
+         </footer> 
+    </main>
+</body>
+</html>
